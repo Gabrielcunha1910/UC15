@@ -1,0 +1,67 @@
+input{
+    width: 100%;
+    
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 15px;
+    max-width: 300px;
+}
+input:focus{
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+body{
+    margin: 0;
+    place-items: center;
+    height: 500px;
+     
+}
+body{
+    margin: 0;
+    height: 100vh;
+
+    background-image: url("../img/fundo.jpg");
+
+}
+input[type="date"], select {
+    width: 100%;             /* Faz ambos ocuparem toda a largura disponível do container */
+    max-width: 400px;        /* Define um tamanho máximo para não ficarem esticados demais (ajuste como preferir) */
+    padding: 12px;           /* Deixa o campo mais alto e com espaço interno igual */
+    border: 1px solid #ccc;  /* Padroniza a bordas de ambos */
+    border-radius: 8px;      /* Deixa as bordas arredondadas como na sua imagem */
+    box-sizing: border-box;  /* Garante que o padding não mude o tamanho total do elemento */
+    font-size: 16px;         /* Mantém o tamanho da letra igual em ambos */
+}
+form {
+    color: white; /* Deixa todos os textos do formulário brancos */
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+/* Seleciona todos os inputs de texto, e-mail, senha, data e os selects */
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="date"], 
+
+
+select {
+    background-color: transparent;      /* Deixa o fundo transparente */
+    color: white;                       /* Deixa a cor do texto digitado branca */
+    border: 2px solid white;            /* Adiciona uma borda branca para destacar a caixa */
+    border-radius: 8px;                 /* Mantém as bordas arredondadas */
+    padding: 12px;                      /* Mantém o espaçamento interno confortável */
+    box-sizing: border-box;
+}
+
+/* Ajuste opcional para as opções dentro do select não sumirem em telas claras */
+select option {
+    background-color: #111;             /* Coloca um fundo escuro nas opções ao clicar */
+    color: white;
+}

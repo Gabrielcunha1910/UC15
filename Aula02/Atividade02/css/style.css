@@ -27,16 +27,16 @@ body{
 
 }
 input[type="date"], select {
-    width: 100%;             /* Faz ambos ocuparem toda a largura disponível do container */
-    max-width: 400px;        /* Define um tamanho máximo para não ficarem esticados demais (ajuste como preferir) */
-    padding: 12px;           /* Deixa o campo mais alto e com espaço interno igual */
-    border: 1px solid #ccc;  /* Padroniza a bordas de ambos */
-    border-radius: 8px;      /* Deixa as bordas arredondadas como na sua imagem */
-    box-sizing: border-box;  /* Garante que o padding não mude o tamanho total do elemento */
-    font-size: 16px;         /* Mantém o tamanho da letra igual em ambos */
+    width: 100%;             
+    max-width: 400px;       
+    padding: 12px;           
+    border: 1px solid #ccc;  
+    border-radius: 8px;      
+    box-sizing: border-box;  
+    font-size: 16px;         
 }
 form {
-    color: white; /* Deixa todos os textos do formulário brancos */
+    color: white; 
 }
 h1{
     color: white;
@@ -44,7 +44,7 @@ h1{
 h2{
     color: white;
 }
-/* Seleciona todos os inputs de texto, e-mail, senha, data e os selects */
+
 input[type="text"], 
 input[type="email"], 
 input[type="password"], 
@@ -52,16 +52,16 @@ input[type="date"],
 
 
 select {
-    background-color: transparent;      /* Deixa o fundo transparente */
-    color: white;                       /* Deixa a cor do texto digitado branca */
-    border: 2px solid white;            /* Adiciona uma borda branca para destacar a caixa */
-    border-radius: 8px;                 /* Mantém as bordas arredondadas */
-    padding: 12px;                      /* Mantém o espaçamento interno confortável */
+    background-color: transparent;     
+    color: white;                       
+    border: 2px solid white;            
+    border-radius: 8px;                
+    padding: 12px;                      
     box-sizing: border-box;
 }
 
-/* Ajuste opcional para as opções dentro do select não sumirem em telas claras */
+
 select option {
-    background-color: #111;             /* Coloca um fundo escuro nas opções ao clicar */
+    background-color: #111;             
     color: white;
 }
